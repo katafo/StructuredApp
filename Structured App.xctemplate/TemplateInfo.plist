@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.structedApp</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array/>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>API/APIManager.swift</string>
+						<string>API/APIController.swift</string>
+						<string>API/APIResponse.swift</string>
+						<string>API/APIKeywords.swift</string>
+						<string>Configs/Readme</string>
+						<string>Configs/Constants.swift</string>
+						<string>Libraries/ProgressView/ProgressView.swift</string>
+						<string>Libraries/ProgressView/HTIndicatorView.swift</string>
+						<string>Libraries/ScreenSize.swift</string>
+						<string>Libraries/Logger.swift</string>
+						<string>Extensions/Reusable/DataSource/DataSource.swift</string>
+						<string>Extensions/Reusable/DataSource/DataProvider.swift</string>
+						<string>Extensions/Reusable/DataSource/CollectionViewDataSource.swift</string>
+						<string>Extensions/Reusable/DataSource/TableViewDataSource.swift</string>
+						<string>Extensions/Reusable/Views/UICollectionView + Reusable.swift</string>
+						<string>Extensions/Reusable/Views/UITableView + Reusable.swift</string>
+						<string>Extensions/Reusable/Views/UIViewController + Reusable.swift</string>
+						<string>Extensions/SBManager.swift</string>
+						<string>Extensions/Date + Helpers.swift</string>
+						<string>Extensions/JSONDecoder + Extension.swift</string>
+						<string>Extensions/Reusable/Reusable.swift</string>
+						<string>Models/User/User.swift</string>
+						<string>Models/User/User + Services.swift</string>
+						<string>View Controllers/Base/PageVC.swift</string>
+						<string>View Controllers/Base/Navigation/HeaderView.swift</string>
+						<string>View Controllers/Base/Navigation/AppNavigationVC.swift</string>
+						<string>View Controllers/Base/Navigation/BackNavigationVC.swift</string>
+						<string>Storyboards/Authentication.storyboard</string>
+						<string>Supporting Files/Readme</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>View Controllers/Base/Navigation/HeaderView.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View Controllers</string>
+				<string>Base</string>
+				<string>Navigation</string>
+			</array>
+			<key>Path</key>
+			<string>View Controllers/Base/Navigation/HeaderView.swift</string>
+		</dict>
+		<key>View Controllers/Base/Navigation/BackNavigationVC.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View Controllers</string>
+				<string>Base</string>
+				<string>Navigation</string>
+			</array>
+			<key>Path</key>
+			<string>View Controllers/Base/Navigation/BackNavigationVC.swift</string>
+		</dict>
+		<key>View Controllers/Base/Navigation/AppNavigationVC.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View Controllers</string>
+				<string>Base</string>
+				<string>Navigation</string>
+			</array>
+			<key>Path</key>
+			<string>View Controllers/Base/Navigation/AppNavigationVC.swift</string>
+		</dict>
+		<key>Supporting Files/Readme</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>Path</key>
+			<string>Supporting Files/Readme</string>
+		</dict>
+		<key>Configs/Readme</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Configs</string>
+			</array>
+			<key>Path</key>
+			<string>Configs/Readme</string>
+		</dict>
+		<key>Configs/Constants.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Configs</string>
+			</array>
+			<key>Path</key>
+			<string>Configs/Constants.swift</string>
+		</dict>
+		<key>View Controllers/Base/PageVC.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>View Controllers</string>
+				<string>Base</string>
+			</array>
+			<key>Path</key>
+			<string>View Controllers/Base/PageVC.swift</string>
+		</dict>
+		<key>Storyboards/Authentication.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
+			<key>Path</key>
+			<string>Storyboards/Authentication.storyboard</string>
+		</dict>
+		<key>Models/User/User.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Models</string>
+				<string>User</string>
+			</array>
+			<key>Path</key>
+			<string>Models/User/User.swift</string>
+		</dict>
+		<key>Models/User/User + Services.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Models</string>
+				<string>User</string>
+			</array>
+			<key>Path</key>
+			<string>Models/User/User + Services.swift</string>
+		</dict>
+		<key>Libraries/Logger.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Libraries</string>
+			</array>
+			<key>Path</key>
+			<string>Libraries/Logger.swift</string>
+		</dict>
+		<key>Libraries/ScreenSize.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Libraries</string>
+			</array>
+			<key>Path</key>
+			<string>Libraries/ScreenSize.swift</string>
+		</dict>
+		<key>Libraries/ProgressView/HTIndicatorView.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Libraries</string>
+				<string>ProgressView</string>
+			</array>
+			<key>Path</key>
+			<string>Libraries/ProgressView/HTIndicatorView.swift</string>
+		</dict>
+		<key>Libraries/ProgressView/ProgressView.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Libraries</string>
+				<string>ProgressView</string>
+			</array>
+			<key>Path</key>
+			<string>Libraries/ProgressView/ProgressView.swift</string>
+		</dict>
+		<key>Extensions/Reusable/DataSource/DataProvider.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>DataSource</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/DataSource/DataProvider.swift</string>
+		</dict>
+		<key>Extensions/Reusable/DataSource/DataSource.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>DataSource</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/DataSource/DataSource.swift</string>
+		</dict>
+		<key>Extensions/Reusable/DataSource/TableViewDataSource.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>DataSource</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/DataSource/TableViewDataSource.swift</string>
+		</dict>
+		<key>Extensions/Reusable/DataSource/CollectionViewDataSource.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>DataSource</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/DataSource/CollectionViewDataSource.swift</string>
+		</dict>
+		<key>Extensions/SBManager.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/SBManager.swift</string>
+		</dict>
+		<key>Extensions/Reusable/Reusable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/Reusable.swift</string>
+		</dict>
+		<key>Extensions/Reusable/Views/UIViewController + Reusable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/Views/UIViewController + Reusable.swift</string>
+		</dict>
+		<key>Extensions/Reusable/Views/UICollectionView + Reusable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/Views/UICollectionView + Reusable.swift</string>
+		</dict>
+		<key>Extensions/Reusable/Views/UITableView + Reusable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+				<string>Reusable</string>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Reusable/Views/UITableView + Reusable.swift</string>
+		</dict>
+		<key>Extensions/JSONDecoder + Extension.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/JSONDecoder + Extension.swift</string>
+		</dict>
+		<key>Extensions/Date + Helpers.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+			</array>
+			<key>Path</key>
+			<string>Extensions/Date + Helpers.swift</string>
+		</dict>
+		<key>API/APIResponse.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>API</string>
+			</array>
+			<key>Path</key>
+			<string>API/APIResponse.swift</string>
+		</dict>
+		<key>API/APIController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>API</string>
+			</array>
+			<key>Path</key>
+			<string>API/APIController.swift</string>
+		</dict>
+		<key>API/APIManager.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>API</string>
+			</array>
+			<key>Path</key>
+			<string>API/APIManager.swift</string>
+		</dict>
+		<key>API/APIKeywords.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>API</string>
+			</array>
+			<key>Path</key>
+			<string>API/APIKeywords.swift</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
