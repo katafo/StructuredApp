@@ -6,7 +6,9 @@
 import Alamofire
 
 enum APIManager {
+    
     case login
+    
 }
 
 extension APIManager {
