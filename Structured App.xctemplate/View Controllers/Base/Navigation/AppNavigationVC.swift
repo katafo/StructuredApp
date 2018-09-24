@@ -18,12 +18,17 @@ class AppNavigationVC: UIViewController {
     lazy var headerView: HeaderView = {
         
         let screen: CGRect = UIScreen.main.bounds
-        let defaultNavigationBarHeight: CGFloat = 44
-        let statusBarHeight: CGFloat = 20
-        let rabbitEarsHeight: CGFloat = 24
         
-        var headerBarHeight: CGFloat = defaultNavigationBarHeight + statusBarHeight
-        if DeviceType.IS_IPHONE_X { headerBarHeight += rabbitEarsHeight }
+        var headerBarHeight: CGFloat = NAV_BAR_HEIGHT + STATUS_BAR_HEIGHT
+        
+        if #available(iOS 11.0, *) {
+            if let window = UIApplication.shared.keyWindow {
+                let safeAreaTopInset = window.safeAreaInsets.top
+                if safeAreaTopInset > 0 {
+                    headerBarHeight += (safeAreaTopInset - STATUS_BAR_HEIGHT)
+                }
+            }
+        }
         
         let headerBar = HeaderView(frame: CGRect(x: 0, y: 0, width: screen.size.width, height: headerBarHeight))
         headerBar.showBottomUnderline = false

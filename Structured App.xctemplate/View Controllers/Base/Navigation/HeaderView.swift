@@ -6,6 +6,10 @@
 
 import UIKit
 
+let NAV_BAR_HEIGHT: CGFloat = 44
+let STATUS_BAR_HEIGHT: CGFloat = 20
+let RABBIT_EARS_HEIGHT: CGFloat = 24
+
 class HeaderView: UIView {
     
     public var navigationBar: UINavigationBar!
@@ -37,7 +41,7 @@ class HeaderView: UIView {
     
     private func setupView() {
         
-        navigationBar = UINavigationBar(frame: CGRect(x: 0, y: frame.height - 44, width: frame.width, height: 44))
+        navigationBar = UINavigationBar(frame: CGRect(x: 0, y: frame.height - NAV_BAR_HEIGHT, width: frame.width, height: NAV_BAR_HEIGHT))
         navigationBar.isTranslucent = false
         navigationBar.barTintColor = .white
         navigationBar.tintColor = .black
@@ -46,10 +50,6 @@ class HeaderView: UIView {
         navigationBar.setItems([navigationItem], animated: false)
     
         addSubview(navigationBar)
-        
-    }
-    
-    func removeShadow() {
         
     }
     
