@@ -55,12 +55,14 @@
 						<string>Extensions/Reusable/Reusable.swift</string>
 						<string>Models/User/User.swift</string>
 						<string>Models/User/User + Services.swift</string>
-						<string>View Controllers/Base/PageVC.swift</string>
-						<string>View Controllers/Base/Navigation/HeaderView.swift</string>
-						<string>View Controllers/Base/Navigation/AppNavigationVC.swift</string>
-						<string>View Controllers/Base/Navigation/BackNavigationVC.swift</string>
+						<string>Common/PageVC.swift</string>
+						<string>Common/Navigation/HeaderView.swift</string>
+						<string>Common/Navigation/AppNavigationVC.swift</string>
+						<string>Common/Navigation/BackNavigationVC.swift</string>
+						<string>Common/CustomizableView.swift</string>
 						<string>Storyboards/Authentication.storyboard</string>
 						<string>Supporting Files/Readme</string>
+						<string>ViewControllers</string>
 					</array>
 				</dict>
 			</dict>
@@ -68,38 +70,44 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>View Controllers/Base/Navigation/HeaderView.swift</key>
+		<key>Common/Navigation/HeaderView.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>View Controllers</string>
-				<string>Base</string>
+				<string>Common</string>
 				<string>Navigation</string>
 			</array>
 			<key>Path</key>
-			<string>View Controllers/Base/Navigation/HeaderView.swift</string>
+			<string>Common/Navigation/HeaderView.swift</string>
 		</dict>
-		<key>View Controllers/Base/Navigation/BackNavigationVC.swift</key>
+		<key>Common/CustomizableView.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>View Controllers</string>
-				<string>Base</string>
-				<string>Navigation</string>
+				<string>Common</string>
 			</array>
 			<key>Path</key>
-			<string>View Controllers/Base/Navigation/BackNavigationVC.swift</string>
+			<string>Common/CustomizableView.swift</string>
 		</dict>
-		<key>View Controllers/Base/Navigation/AppNavigationVC.swift</key>
+		<key>Common/Navigation/BackNavigationVC.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>View Controllers</string>
-				<string>Base</string>
+				<string>Common</string>
 				<string>Navigation</string>
 			</array>
 			<key>Path</key>
-			<string>View Controllers/Base/Navigation/AppNavigationVC.swift</string>
+			<string>Common/Navigation/BackNavigationVC.swift</string>
+		</dict>
+		<key>Common/Navigation/AppNavigationVC.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Common</string>
+				<string>Navigation</string>
+			</array>
+			<key>Path</key>
+			<string>Common/Navigation/AppNavigationVC.swift</string>
 		</dict>
 		<key>Supporting Files/Readme</key>
 		<dict>
@@ -119,6 +127,13 @@
 			<key>Path</key>
 			<string>Configs/Readme</string>
 		</dict>
+		<key>ViewControllers</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>ViewControllers</string>
+			</array>
+		</dict>
 		<key>Configs/Constants.swift</key>
 		<dict>
 			<key>Group</key>
@@ -128,15 +143,14 @@
 			<key>Path</key>
 			<string>Configs/Constants.swift</string>
 		</dict>
-		<key>View Controllers/Base/PageVC.swift</key>
+		<key>Common/PageVC.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>View Controllers</string>
-				<string>Base</string>
+				<string>Common</string>
 			</array>
 			<key>Path</key>
-			<string>View Controllers/Base/PageVC.swift</string>
+			<string>Common/PageVC.swift</string>
 		</dict>
 		<key>Storyboards/Authentication.storyboard</key>
 		<dict>

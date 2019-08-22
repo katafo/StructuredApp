@@ -23,7 +23,7 @@ struct APIController {
 
     static func request<T: Decodable>(responseType: T.Type, manager: APIManager, params: Parameters? = nil, completion: @escaping ResponseBlock<T>){
         
-        Logger.log(message: "API: \(manager)\nURL: \(manager.url)", event: .info)
+        Logger.log(message: "URL: \(manager.url)", event: .info)
         
         Alamofire.request(manager.url, method: manager.method, parameters: params, encoding: manager.encoding, headers: manager.header).validate().responseData { (responseData) in
             

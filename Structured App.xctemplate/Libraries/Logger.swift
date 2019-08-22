@@ -27,7 +27,7 @@ final class Logger {
         
         let date = Date().toString(dateFormat: "yyyy-MM-dd hh:mm")
         
-        print("\(date) \(event.rawValue) [\(sourceFileName(filePath: fileName)).\(funcName)] [\(line)]:\n\(message)\n")
+        print("\(date) \(event.rawValue) [\(sourceFileName(filePath: fileName)).\(funcName)] [\(line)]: \(message)")
         
     }
     
